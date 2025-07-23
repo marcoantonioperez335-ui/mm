@@ -1,0 +1,117 @@
+<!D<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Marco & Andrea 💘</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #fff0f5;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(to right, #ff6b81, #ffb6c1);
+            color: white;
+            padding: 30px 20px;
+            font-size: 36px;
+            font-weight: bold;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+        }
+        nav {
+            text-align: center;
+            background-color: #ffe6eb;
+            padding: 15px 0;
+        }
+        nav button {
+            background-color: #ff8fa3;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            margin: 5px;
+            border-radius: 20px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: 0.3s ease;
+        }
+        nav button:hover {
+            background-color: #ff4d6d;
+            transform: scale(1.05);
+        }
+        section {
+            padding: 30px 20px;
+            text-align: center;
+        }
+        .galeria img {
+            width: 80%;
+            max-width: 400px;
+            margin: 20px;
+            border-radius: 20px;
+            box-shadow: 0px 6px 12px rgba(0,0,0,0.3);
+        }
+        .historia {
+            background-color: #ffe6eb;
+            padding: 30px;
+            border-radius: 15px;
+            margin: 40px auto;
+            max-width: 800px;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        footer {
+            background-color: #ff6b81;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 18px;
+        }
+        .frase {
+            font-style: italic;
+            margin-top: 30px;
+            color: #a82c4a;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        Marco & Andrea 💘
+    </header>
+
+    <nav>
+        <button onclick="window.scrollTo({ top: 0, behavior: 'smooth' })">Inicio</button>
+        <button onclick="document.getElementById('galeria').scrollIntoView({ behavior: 'smooth' })">Galería</button>
+        <button onclick="document.getElementById('historia').scrollIntoView({ behavior: 'smooth' })">Cómo te conocí</button>
+        <button onclick="alert('Te amo mucho Andrea 💖')">Contacto</button>
+    </nav>
+
+    <section id="galeria" class="galeria">
+        <h2>📸 Nuestros Momentos</h2>
+        <img src="IMG-20250227-WA0005.jpg" alt="Foto 1">
+        <img src="IMG-20250227-WA0056.jpg" alt="Foto 2">
+        <img src="IMG-20250427-WA0004.jpg" alt="Foto 3">
+    </section>
+
+    <section id="historia" class="historia">
+        <h2>💌 Cómo te conocí</h2>
+        <p>
+            Te conocí cuando menos lo esperaba, pero desde ese momento supe que había algo especial en ti.
+            Cada palabra tuya me hizo sonreír, y sin darme cuenta, te fuiste quedando en mi corazón.
+            Tus risas, tus abrazos, tus locuras... cada parte de ti me hizo sentir lo que nunca antes había sentido.
+            Gracias por aparecer en mi vida, Andrea. Eres lo más bonito que me ha pasado. 💖
+        </p>
+    </section>
+
+    <section class="frase">
+        <p>“Desde que llegaste, mi mundo cambió... y ahora solo quiero quedarme contigo para siempre.”</p>
+    </section>
+
+    <footer>
+        Con todo mi amor para ti, Andrea 🌹<br>
+        Hecho por Marco 💘
+    </footer>
+
+</body>
+</html>
+
